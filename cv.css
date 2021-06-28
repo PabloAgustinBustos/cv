@@ -85,3 +85,56 @@ body{
 .where, .course-duration{
     font-weight: normal;
 }
+
+.photo{
+    height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+img{
+    width: 70%;
+}
+
+.info-block{
+    margin-left: 15%;
+    margin-bottom: 8%;
+}
+
+.contact-title{
+    text-align: left;
+}
+
+.contact-list{
+    margin-left: -6.4%;
+    list-style-type: none;
+    font-size: 1.5em;
+}
+
+.contact-item{
+    margin-bottom: 5%;
+}
+
+/* si o si debo definir un width porque sino, los iconos usaran medidas disintas */
+.contact-icon{
+    width: 20px;
+}
+
+.contact-text{
+    margin-left: 4%;
+}
+
+.skill-list{
+    margin-left: -3.4%;
+    font-size: 1.5em;
+}
+
+.skill, .hobbie{
+    margin-bottom: 1.5%;
+}
+
+.hobbies-list{
+    margin-left: -3.4%;
+    font-size: 1.5em;
+}
